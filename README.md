@@ -8,6 +8,8 @@
     <a href="http://archmike12.pythonanywhere.com/">View Demo</a>
     ·
     <a href="mailto:it.michael.belete@gmail.com">Contact Me</a>
+    ·
+    <a href="https://toothsome-perigee-e14.notion.site/Blog-Development-with-Django-ab08811d44c44ef682c61d883e89e74c">How to make it</a>
   </p>
 </div>
 
