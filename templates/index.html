@@ -42,7 +42,6 @@
     </div>
     <!-- Blog Entries Column -->
     <div class="col-md-9 mt-3 left">
-      {% if post %}
       {% for post in post_list %}
       <div class="card mb-4">
         {% if post.image %}
@@ -59,7 +58,7 @@
         </div>
       </div>
       {% endfor %}
-      {% else %}
+      {% if post == '' %}
       <div class="alert alert-info ">
         No post yet!!
       </div>
