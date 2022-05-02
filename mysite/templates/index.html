@@ -42,6 +42,7 @@
     </div>
     <!-- Blog Entries Column -->
     <div class="col-md-9 mt-3 left">
+      {% if post %}
       {% for post in post_list %}
       <div class="card mb-4">
         {% if post.image %}
@@ -56,9 +57,13 @@
           <p class="card-text">{{post.content|slice:":200" }}</p>
           <a href="{% url 'post_detail' post.slug  %}" class="btn btn-primary">Read More &rarr;</a>
         </div>
-
       </div>
       {% endfor %}
+      {% else %}
+      <div class="alert alert-info ">
+        No post yet!!
+      </div>
+      {% endif %}
     </div>
     {% block sidebar %}
     {% include 'sidebar.html' %}
