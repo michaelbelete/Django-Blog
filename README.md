@@ -36,7 +36,7 @@
 
 ## About The Project
 
-<img src="https://ibb.co/WnBM4xk" />
+<img src="https://i.ibb.co/tBYvTmq/blog.png" />
 
 developed as an open source project and to teach users the concept of MVC and how to develop a website using django. django-blog is a blog website for every developer that want a simple blog to share thier ideas.
 
