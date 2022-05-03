@@ -51,9 +51,6 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
@@ -62,11 +59,9 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
 1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/michaelbelete/Django-Blog.git
    ```
 2. Create a virtual environment
    ```sh
@@ -96,4 +91,4 @@ _Below is an example of how you can instruct your audience on installing and set
 
 ## Contact
 
-Michael Belete - [@michaelbelete16](https://twitter.com/your_username) - it.michael.belete@gmail.com
+Michael Belete - [@michaelbelete16](https://twitter.com/michaelbelete16) - it.michael.belete@gmail.com
